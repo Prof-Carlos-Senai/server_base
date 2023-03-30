@@ -1,0 +1,14 @@
+{
+  "name": "server_base",
+  "version": "1.0.0",
+  "description": "Servidor base",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
