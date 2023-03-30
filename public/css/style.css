@@ -1,0 +1,124 @@
+
+body{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    margin: 0 16px;
+}
+
+.menu ul{
+    margin-block: 0;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+    /* margin-right: 20px; */
+}
+
+.img_prog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_prog img{
+    border-radius: 20px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.8rem;
+}
+
+footer{
+    padding: 4px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+/* formulário */
+
+.formulario{
+    margin-bottom: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario label, .conta label{
+    margin-bottom: 8px;
+}
+
+.formulario input, .formulario textarea, .conta input{
+    margin-bottom: 8px;
+    display: block;
+    width: 70vw;  
+    font-size: 1.2rem;
+    background-color: cornflowerblue;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: darkblue;
+    padding-left: 8px;
+}
+
+.formulario input{
+    height: 32px;
+}
+
+.formulario textarea{
+    height: 240px;
+}
+
+.formulario button, .conta button{
+    width: 96px;
+    height: 48px;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* localização */
+
+.local_end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.local_end iframe{
+    border: 2px solid rgba(120,120,120,0.9);
+    border-radius: 24px;
+}
+
+.responsivo{
+    width: 300px;
+    height: 250px;
+}
+
+@media(min-width:380px){
+    .responsivo{
+        width: 450px;
+        height: 300px;
+    }
+}

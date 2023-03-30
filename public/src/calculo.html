@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/calc.js" defer></script>
     <title>Server</title>
 </head>
 <body>
@@ -13,28 +14,28 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../src/contato.html">Contato</a></li>
-                <li><a href="../src/localizacao.html">Localização</a></li>                
-                <li><a href="../src/calculo.html">Cálculo</a></li>                
+                <li><a href="../src/localizacao.html">Localização</a></li>
+                <li><a href="../src/calculo.html">Cálculo</a></li>
+
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Developer e CIA</h1>
-        <br>
-        <p>A Developer e CIA é uma empresa especializada no desenvolvimento de sistemas
-            WEB. Atua desde o modelamento, com a análise de requisitos, implementação em
-            termos da definição de arquitetura de software e a codificação em linguagem 
-            de programa, até a manutenção do sistema.
-        </p>
-        <br>
-        <div class="img_prog">
-            <picture>
-                <source media="(min-width: 380px)" srcset="./img/programacao_01_normal.jpg">
-                <source srcset="./img/programacao_01_pq.jpg">                
-                <img class="img-jovem" src="./img/programacao_01_pq.jpg" alt="Imagem programação">
-            </picture>
+        <h1>Soma</h1>
+        <div class="conta">
+            <br>
+            <label for="num1">Digite o primeiro Número:</label>
+            <br><br>
+            <input type="text" id="num1" placeholder="primeiro número">
+            <br><br>
+            <label for="num2">Digite o segundo Número:</label>
+            <br><br>
+            <input type="text" id="num2" placeholder="segundo número">
+            <br><br>
+            <button onclick="soma()">Enviar</button>
+            <br><br>
+            <div id="res"></div>
         </div>
-
     </main>
     <footer>
         <div class="rodape">
